@@ -7,4 +7,5 @@ Columnformer performance trained on [ImageNet-100](https://huggingface.co/datase
 | description | commit | # of params | Depth  |  geometry | accuracy |
 |------------|--------|-------------|-----------|----------|----------|
 | baseline | [690dd2c](https://github.com/IhabBendidi/columnformers/tree/690dd2c733f1fa029e43e87cf5ce99a5c3b90608)| 47M | 6 | [8, 12, 16]  |      22.8%       |
-| Depth |   | 47M | 9 | [8, 12, 16]  |      12.8%       |
+| Depth |   [f560433](https://github.com/IhabBendidi/columnformers/tree/f5604333e57cc36750717cefd9dd1bc24357d3ca) | 47M | 9 | [8, 12, 16]  |      12.8%       |
+| Depth |   [f67cb53](https://github.com/IhabBendidi/columnformers/tree/f67cb53e9f87dcd632ca6827fb6723c8328d56ea) | 47M | 3 | [8, 12, 16]  |      30.0%       |
