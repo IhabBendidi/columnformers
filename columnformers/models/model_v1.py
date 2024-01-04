@@ -297,6 +297,6 @@ class Columnformer(nn.Module):
 def columnformer_v1_patch16_128(**kwargs) -> Columnformer:
     embedding = multilayer_embedding([8, 12, 16], offset=2.0)
     dist = torch.cdist(embedding, embedding)
-    return Columnformer(dist=dist, embed_dim=384, depth=1, inner_dim=64, **kwargs)
+    return Columnformer(dist=dist, embed_dim=384, depth=2, inner_dim=64, **kwargs)
 
 
